@@ -15,7 +15,9 @@
 body {
     animation: pageFade 0.7s var(--smooth);
 }
-
+:root {
+    --smooth: cubic-bezier(0.4, 0, 0.2, 1);
+}
 @keyframes pageFade {
     from {
         opacity: 0;
